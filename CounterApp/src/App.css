@@ -1,0 +1,32 @@
+/* Make CounterApp centered */
+.center-container {
+  text-align: center;
+}
+
+/* Counter number */
+.counter-value {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Button styles */
+.counter-btn {
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.counter-btn:hover {
+  background-color: #4d55d4;
+}
+
+.counter-btn:active {
+  transform: scale(0.95);
+}
